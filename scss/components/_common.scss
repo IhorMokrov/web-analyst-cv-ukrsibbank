@@ -1,0 +1,12 @@
+* {
+  font-family: Ubuntu;
+}
+
+.section-title::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  fill: red;
+  background-image: url(../images/icons.svg#icon-mark);
+  outline: 1px solid red;
+}
