@@ -8,74 +8,144 @@
     <link rel="stylesheet" href="./scss/main.css" />
   </head>
   <body>
-    <div class="hero">
-      <h1 class="hero__name">Ігор Мокров</h1>
-      <h2 class="hero__position">Web-analyst</h2>
-      <p class="hero__text">
-        Привіт! Переглянув вашу вакансію на Web-analyst. Про себе коротко хочу
-        відмітити, що маю тривалий досвід роботи в банку, 6+ років котрих я
-        займався аналітикою у фінансовому відділі. Окрім цього вже встиг
-        опанувати певні технології з Web-development, такі як HTML, CSS та
-        JavaScript. Вважаю свої знання та досвід релевантними для цієї посади.
-        Тож, якщо цікаво, запрошую оцінити мої hard skills нижче!
-      </p>
+    <div class="wrapper">
+      <div class="main-content">
+        <div class="hero">
+          <h1 class="hero__name">Ігор Мокров</h1>
+          <h2 class="hero__position">Web-analyst</h2>
+          <p class="hero__text">
+            Привіт! Переглянув вашу вакансію на Web-analyst. Про себе коротко
+            хочу відмітити, що маю тривалий досвід роботи в банку, 6+ років
+            котрих я займався аналітикою у фінансовому відділі. Окрім цього вже
+            встиг опанувати певні технології з Web-development, такі як HTML,
+            CSS та JavaScript. Вважаю свої знання та досвід релевантними для
+            цієї посади. Тож, якщо цікаво, запрошую оцінити мої hard skills
+            нижче!
+          </p>
 
-      <div class="contacts">
-        <a class="contacts__item" href="mailto:i.mokrov89@gmail.com"
-          ><svg width="30" height="30">
-            <use href="./images/icons.svg#icon-mail"></use>
-          </svg>
-          i.mokrov89@gmail.com</a
-        >
-        <a class="contacts__item" href="tel:+380506493201" type="tel"
-          ><svg width="30" height="30">
-            <use href="./images/icons.svg#icon-phone"></use></svg
-          >+380506493201</a
-        >
-        <span class="contacts__item"
-          ><svg width="30" height="30">
-            <use href="./images/icons.svg#icon-location"></use></svg
-          >Київ, Україна</span
-        >
+          <div class="contacts">
+            <a class="contacts__item" href="mailto:i.mokrov89@gmail.com"
+              ><svg class="contacts__icon" width="30" height="30">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+              i.mokrov89@gmail.com</a
+            >
+            <a class="contacts__item" href="tel:+380506493201" type="tel"
+              ><svg class="contacts__icon" width="30" height="30">
+                <use href="./images/icons.svg#icon-phone"></use></svg
+              >+380506493201</a
+            >
+            <span class="contacts__item"
+              ><svg class="contacts__icon" width="30" height="30">
+                <use href="./images/icons.svg#icon-location"></use></svg
+              >Київ, Україна</span
+            >
+          </div>
+        </div>
+
+        <main>
+          <div class="section-title">
+            <svg class="section-title__image" width="30" height="30">
+              <use href="./images/icons.svg#icon-mark"></use>
+            </svg>
+            <h3 class="section-title">WORK EXPERIENCE</h3>
+          </div>
+
+          <div class="job__container section-title__job__container">
+            <h4 class="job__title">АТ "IR Bank"</h4>
+            <p class="job__position">
+              Головний спеціаліст відділу фінансового контролю
+            </p>
+            <p class="job__duration">2016 - 2022 (6 років)</p>
+            <ul class="job__skills-list">
+              <li class="job__skill-item">
+                Контроль та оптимізація витрат закупівель підприємства [SAP ERP]
+              </li>
+              <li class="job__skill-item">
+                Облік та аналіз фінансових операцій на їх відповідність
+                бюджетним планам у розрізі статей бюджету, P&L [SAP ERP, Excel]
+              </li>
+              <li class="job__skill-item">
+                Формування консолідованої фінансової звітності, аналітичних
+                даних
+              </li>
+              <li class="job__skill-item">
+                Застосування ERP-системи SAP для автоматизації та управління
+                процесами закупівель та обліку витрат
+              </li>
+              <li class="job__skill-item">
+                Застосування CRM-системи Siebel для ведення бази даних
+                контрагентів
+              </li>
+              <li class="job__skill-item">
+                Впровадження та адміністрування сервісу електронного обміну
+                документів [Вчасно]
+              </li>
+            </ul>
+          </div>
+        </main>
       </div>
-    </div>
+      <aside class="sidebar">
+        <!-- use as background to hide sharp pixels -->
+        <div class="main-photo"></div>
 
-    <div class="section-title">
-      <svg class="section-title__image" width="30" height="30">
-        <use href="./images/icons.svg#icon-mark"></use>
-      </svg>
-      <h3 class="section-title">WORK EXPERIENCE</h3>
-    </div>
+        <!-- Skills -->
+        <div class="section-title">
+          <svg class="section-title__image" width="30" height="30">
+            <use href="./images/icons.svg#icon-mark"></use>
+          </svg>
+          <h3 class="section-title">Web SKILLS</h3>
+        </div>
 
-    <div class="job__container section-title__job__container">
-      <h4 class="job__title">АТ "IR Bank"</h4>
-      <p class="job__position">
-        Головний спеціаліст відділу фінансового контролю
-      </p>
-      <p class="job__duration">2016 - 2022 (6 років)</p>
-      <ul class="job__skills-list">
-        <li class="job__skill-item">
-          Контроль та оптимізація витрат закупівель підприємства [SAP ERP]
-        </li>
-        <li class="job__skill-item">
-          Облік та аналіз фінансових операцій на їх відповідність бюджетним
-          планам у розрізі статей бюджету, P&L [SAP ERP, Excel]
-        </li>
-        <li class="job__skill-item">
-          Формування консолідованої фінансової звітності, аналітичних даних
-        </li>
-        <li class="job__skill-item">
-          Застосування ERP-системи SAP для автоматизації та управління процесами
-          закупівель та обліку витрат
-        </li>
-        <li class="job__skill-item">
-          Застосування CRM-системи Siebel для ведення бази даних контрагентів
-        </li>
-        <li class="job__skill-item">
-          Впровадження та адміністрування сервісу електронного обміну документів
-          [Вчасно]
-        </li>
-      </ul>
+        <ul class="skills-list">
+          <li class="skills-item">HTML</li>
+          <li class="skills-item">CSS, SASS</li>
+          <li class="skills-item">BEM</li>
+
+          <li class="skills-item">Responsive/Adaptive design</li>
+          <li class="skills-item">JavaScript</li>
+          <li class="skills-item">QA, Jira</li>
+          <li class="skills-item">GIT</li>
+          <li class="skills-item">VSCode, Figma</li>
+        </ul>
+
+        <div class="section-title">
+          <svg class="section-title__image" width="30" height="30">
+            <use href="./images/icons.svg#icon-mark"></use>
+          </svg>
+          <h3 class="section-title">Other SKILLS</h3>
+        </div>
+
+        <ul class="skills-list">
+          <li class="skills-item">SAP ERP</li>
+          <li class="skills-item">AI: ChatGPT, Bard</li>
+          <li class="skills-item">PivotChart Excel</li>
+          <li class="skills-item">Siebel</li>
+          <li class="skills-item">vchasno</li>
+        </ul>
+
+        <div class="section-title">
+          <svg class="section-title__image" width="30" height="30">
+            <use href="./images/icons.svg#icon-mark"></use>
+          </svg>
+          <h3 class="section-title">LANGUAGES</h3>
+        </div>
+
+        <ul class="languages-list">
+          <li class="languages-item">
+            <span class="languages-lang">English</span><br /><span
+              class="languages-possession"
+              >Upper-Intermidiate</span
+            >
+          </li>
+          <li class="languages-item">
+            <span class="languages-lang">Ukrainian</span><br /><span
+              class="languages-possession"
+              >Native</span
+            >
+          </li>
+        </ul>
+      </aside>
     </div>
   </body>
 </html>

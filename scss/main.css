@@ -259,6 +259,24 @@ li {
   font-family: Ubuntu;
 }
 
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1182px;
+  overflow: hidden;
+  outline: 1px solid rgb(233, 229, 229);
+}
+
+.main-content {
+  padding-top: 40px;
+  padding-right: 32px;
+  padding-bottom: 40px;
+  padding-left: 36px;
+}
+
 .section-title {
   display: flex;
   align-items: center;
@@ -288,21 +306,34 @@ li {
 
 .hero__text {
   margin-top: 20px;
-  font-style: 18px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 22px;
 }
 
 .contacts {
+  margin-top: 30px;
+  margin-bottom: 40px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-left: 34px;
   margin-right: 34px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .contacts__item {
   display: flex;
   align-items: center;
+}
+.contacts__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.contacts__icon {
+  margin-right: 8px;
 }
 
 .section-title__job__container {
@@ -353,4 +384,67 @@ li {
   background-repeat: no-repeat;
   background-image: url(../../images/sub-mark.svg);
   background-position: center;
+}
+
+.sidebar {
+  padding-top: 44px;
+  padding-right: 44px;
+  padding-left: 44px;
+  min-width: 360px;
+  min-height: 100%;
+}
+
+.main-photo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 95px;
+  display: block;
+  width: 196px;
+  height: 196px;
+  background-image: url(../../images/ihor-mokrov-no-bg.png), linear-gradient(to right, rgba(152, 157, 166, 0.3) 99%, rgba(152, 157, 166, 0.3));
+  border: 2px solid rgb(49, 60, 78);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.skills-list {
+  margin-top: 27px;
+  margin-bottom: 67px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-item {
+  margin-right: 10px;
+  margin-bottom: 8px;
+  padding: 6px 14px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+  background-color: #989da6;
+  border-radius: 6px;
+}
+
+.languages-list {
+  margin-top: 16px;
+  margin-bottom: 38px;
+}
+
+.languages-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.languages-lang {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.languages-possession {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: italic;
 }/*# sourceMappingURL=main.css.map */
