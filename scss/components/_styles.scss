@@ -1,0 +1,106 @@
+.section-title {
+  display: flex;
+  align-items: center;
+
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.section-title__image {
+  margin-right: 14px;
+  fill: rgb(49, 60, 78);
+}
+
+// Hero
+.hero__name {
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.hero__position {
+  margin-top: 6px;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  color: $text-green;
+}
+
+.hero__text {
+  margin-top: 20px;
+
+  font-style: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+}
+// Job
+
+.section-title__job__container {
+  margin-top: 22px;
+}
+
+.job__title {
+  margin-bottom: 2px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.job__position {
+  margin-bottom: 8px;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.job__duration {
+  margin-bottom: 8px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: italic;
+  color: $text-green;
+}
+
+.job__skill-item {
+  display: flex;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+.job__skill-item::before {
+  margin-right: 8px;
+  content: '';
+  min-width: 12px;
+  min-height: 12px;
+  width: 12px;
+  height: 22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../images/sub-mark.svg);
+  background-position: center;
+}
