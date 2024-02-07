@@ -10,7 +10,8 @@ Use a better box model (opinionated).
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -277,8 +278,13 @@ body {
 .wrapper {
   margin-left: auto;
   margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   max-width: 1182px;
   overflow: hidden;
   background-image: url(../../images/bg-top.svg);
@@ -297,8 +303,12 @@ body {
 }
 
 .section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 28px;
   font-weight: 700;
   line-height: 30px;
@@ -333,9 +343,15 @@ body {
 .contacts {
   margin-top: 30px;
   margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: 34px;
   margin-right: 34px;
   font-size: 18px;
@@ -344,8 +360,12 @@ body {
 }
 
 .contacts__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 8px;
 }
 .contacts__item:not(:last-child) {
@@ -385,6 +405,8 @@ body {
 }
 
 .job__skill-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 18px;
   font-weight: 400;
@@ -431,7 +453,8 @@ body {
   display: block;
   width: 196px;
   height: 196px;
-  background-image: url(./images/ihor-mokrov-no-bg.png), linear-gradient(to right, rgba(152, 157, 166, 0.3) 99%, rgba(152, 157, 166, 0.3));
+  background-image: url(../../images/ihor-mokrov-no-bg.png), -webkit-gradient(linear, left top, right top, color-stop(99%, rgba(152, 157, 166, 0.3)), to(rgba(152, 157, 166, 0.3)));
+  background-image: url(../../images/ihor-mokrov-no-bg.png), linear-gradient(to right, rgba(152, 157, 166, 0.3) 99%, rgba(152, 157, 166, 0.3));
   border: 2px solid rgb(49, 60, 78);
   background-size: contain;
   background-repeat: no-repeat;
@@ -441,8 +464,11 @@ body {
 .skills-list {
   margin-top: 27px;
   margin-bottom: 67px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .skills-item {
