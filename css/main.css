@@ -287,7 +287,7 @@ body {
           flex-direction: row-reverse;
   max-width: 1182px;
   overflow: hidden;
-  background-image: url(../../images/bg-top.svg);
+  background-image: url(../images/bg-top.svg);
   background-repeat: no-repeat;
   outline: 1px solid rgb(233, 229, 229);
 }
@@ -297,7 +297,7 @@ body {
   padding-right: 32px;
   padding-bottom: 80px;
   padding-left: 36px;
-  background-image: url(../../images/bg-bottom.svg);
+  background-image: url(../images/bg-bottom.svg);
   background-position: bottom;
   background-repeat: no-repeat;
 }
@@ -453,8 +453,8 @@ body {
   display: block;
   width: 196px;
   height: 196px;
-  background-image: url(../../images/ihor-mokrov-no-bg.png), -webkit-gradient(linear, left top, right top, color-stop(99%, rgba(152, 157, 166, 0.3)), to(rgba(152, 157, 166, 0.3)));
-  background-image: url(../../images/ihor-mokrov-no-bg.png), linear-gradient(to right, rgba(152, 157, 166, 0.3) 99%, rgba(152, 157, 166, 0.3));
+  background-image: url(../images/ihor-mokrov-no-bg.png), -webkit-gradient(linear, left top, right top, color-stop(99%, rgba(152, 157, 166, 0.3)), to(rgba(152, 157, 166, 0.3)));
+  background-image: url(../images/ihor-mokrov-no-bg.png), linear-gradient(to right, rgba(152, 157, 166, 0.3) 99%, rgba(152, 157, 166, 0.3));
   border: 2px solid rgb(49, 60, 78);
   background-size: contain;
   background-repeat: no-repeat;
