@@ -291,7 +291,7 @@ body {
   background-image: url(../images/bg-top.svg);
   background-repeat: no-repeat;
   background-color: #fff;
-  border: 2px solid #eeeff1;
+  border: 2px solid rgb(196, 196, 196);
 }
 
 .main-content {
