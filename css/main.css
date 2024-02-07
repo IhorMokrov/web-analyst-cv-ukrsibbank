@@ -290,7 +290,7 @@ body {
   overflow: hidden;
   background-image: url(../images/bg-top.svg);
   background-repeat: no-repeat;
-  outline: 1px solid rgb(233, 229, 229);
+  border: 2px solid rgb(196, 196, 196);
 }
 
 .main-content {
@@ -380,7 +380,7 @@ body {
 }
 
 .section-title__job__container {
-  margin-top: 22px;
+  margin-top: 30px;
 }
 
 .job__title {
@@ -427,7 +427,7 @@ body {
   height: 22px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../../images/sub-mark.svg);
+  background-image: url(../images/sub-mark.svg);
   background-position: center;
 }
 
@@ -457,7 +457,7 @@ body {
   height: 196px;
   background-image: url(../images/ihor-mokrov-no-bg.png), -webkit-gradient(linear, left top, right top, color-stop(100%, rgb(241, 241, 241)), to(rgb(152, 157, 166)));
   background-image: url(../images/ihor-mokrov-no-bg.png), linear-gradient(to right, rgb(241, 241, 241) 100%, rgb(152, 157, 166));
-  border: 2px solid rgb(49, 60, 78);
+  border: 3px solid #449399;
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 50%;
