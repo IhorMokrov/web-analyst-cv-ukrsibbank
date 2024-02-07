@@ -22,11 +22,7 @@
   height: 196px;
   //   TYPE 1
   background-image: url(../images/ihor-mokrov-no-bg.png),
-    linear-gradient(
-      to right,
-      rgba(152, 157, 166, 0.3) 99%,
-      rgba(152, 157, 166, 0.3)
-    );
+    linear-gradient(to right, rgb(241, 241, 241) 100%, rgba(152, 157, 166, 1));
   border: 2px solid rgb(49, 60, 78);
 
   //   TYPE 2

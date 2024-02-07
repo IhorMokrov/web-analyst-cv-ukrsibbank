@@ -453,8 +453,8 @@ body {
   display: block;
   width: 196px;
   height: 196px;
-  background-image: url(../images/ihor-mokrov-no-bg.png), -webkit-gradient(linear, left top, right top, color-stop(99%, rgba(152, 157, 166, 0.3)), to(rgba(152, 157, 166, 0.3)));
-  background-image: url(../images/ihor-mokrov-no-bg.png), linear-gradient(to right, rgba(152, 157, 166, 0.3) 99%, rgba(152, 157, 166, 0.3));
+  background-image: url(../images/ihor-mokrov-no-bg.png), -webkit-gradient(linear, left top, right top, color-stop(100%, rgb(241, 241, 241)), to(rgb(152, 157, 166)));
+  background-image: url(../images/ihor-mokrov-no-bg.png), linear-gradient(to right, rgb(241, 241, 241) 100%, rgb(152, 157, 166));
   border: 2px solid rgb(49, 60, 78);
   background-size: contain;
   background-repeat: no-repeat;
