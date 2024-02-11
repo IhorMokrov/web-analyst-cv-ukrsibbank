@@ -272,12 +272,22 @@ a:hover {
 }
 
 body {
-  width: 1182px;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
-  padding-bottom: 12px;
   background-image: url(../images/bg-top.svg);
+  background-repeat: no-repeat;
+}
+
+body::after {
+  position: absolute;
+  top: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/bg-bottom.svg);
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
@@ -293,9 +303,6 @@ body {
           flex-direction: row-reverse;
   max-width: 1182px;
   overflow: hidden;
-  background-image: url(../images/bg-top.svg);
-  background-repeat: no-repeat;
-  border: 2px solid rgb(196, 196, 196);
 }
 
 .main-content {
@@ -303,9 +310,6 @@ body {
   padding-right: 32px;
   padding-bottom: 80px;
   padding-left: 36px;
-  background-image: url(../images/bg-bottom.svg);
-  background-position: bottom;
-  background-repeat: no-repeat;
 }
 
 .section-title {
